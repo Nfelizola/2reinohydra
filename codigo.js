@@ -30,7 +30,8 @@ function iniciar(){
                 const exibebotoes =setTimeout(() =>{
                         panel.innerHTML="<p> Rápido Qual ação: </p> <button>Golpeie e arrebate uma cabeça</button>";
                         panel.innerHTML+="<br><button>Golpeie certeiramente as 3 cabeças</button><br><button>Escolha outra opção...</button>";
-                        }, 3500); 
+                        panel.innerHTML+="<hr><img src='papirodica.png'>";
+                    }, 3500); 
                       }, 1500);     
                 };
 
