@@ -1,7 +1,3 @@
-
-
-
-
 function playgot(){
         trilha2.volume=0.35;        
     trilha2.play();
@@ -9,19 +5,13 @@ function playgot(){
 function checagem(){
     const btok = document.getElementById("start");
     btok.style.visibility = "visible";
-   
-
 }
-
-
 function iniciar(){
    // foi clicado no botão start
     trilha2.pause();
     trilha.volume = 1;
     trilha.loop=true;
     trilha.play();
-    
-    
     const hidra = document.getElementById("hidra");
     hidra.style.backgroundImage = "url('hydra.png')";
     hidra.style.backgroundSize="clip";
@@ -43,16 +33,6 @@ function iniciar(){
                         }, 3500); 
                       }, 1500);     
                 };
-
-function myGreeting() {
-  document.getElementById("demo").innerHTML = "Happy Birthday!"
-}
-
-
-    
-
-
-    
 
 
 
