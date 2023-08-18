@@ -2,7 +2,6 @@
 
 ## Neste caso estamos entregando uma parte do código realizado e os alunos irão realizar tentaivas para completar o restante
 
-veja em:
+veja em: https://nfelizola.github.io/2reinohydra/
 
-https://nfelizola.github.io/2reinohydra/
 
