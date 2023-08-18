@@ -1,0 +1,66 @@
+/* ===== ESTE BLOCO FAZ UM RESET, OU SEJA GARANTE QUE ALGUNS ATRIBUTOS
+ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: none;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    /*/overflow: hidden;*/
+  } 
+p{
+    color:black;
+    font-family: 'Bowlby One SC', cursive;
+  }
+.hidra{
+   width: 300px;
+    height: 250px;
+    background-image: url("cavaleiros.jpg");
+    background-size: contain;
+ 
+}
+.alunos{
+  background-image: url("alunos.png");
+  width: 400px;
+  height: 220px;
+ }
+ .board{
+    display: flex;
+    flex-wrap:wrap;
+    padding:10px;
+    justify-content:center;
+    background-color: black;
+    top:0px;
+    width:100vw;
+    height:100vh;
+}
+.cena{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    background-color: lightgray;
+    padding-top:100px;
+    top:0px;
+    width:90vw;
+    height:90vh;
+}
+
+.painel{
+    padding:10px; 
+    width:260px;
+    height:200px;
+    background-color: lightblue;
+    border: 1px solid blue; 
+    box-shadow: 10px 10px #888888
+}
+
+.painel button{
+    visibility: visible;
+    padding:10px;
+    border: 1px solid blue; 
+    box-shadow: 1px 2px #888888
+}
+
+button:hover  {transform: scale(1.4);transition: all 1s;}
