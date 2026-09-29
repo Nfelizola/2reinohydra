@@ -4,4 +4,4 @@
 
 veja em: https://nfelizola.github.io/2reinohydra/
 
-
+# testes e alterações das extensoões do meu VSCODE em 29-9-26
